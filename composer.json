@@ -1,0 +1,21 @@
+{
+    "name": "my-packages/test-package-01",
+    "description": "simple test composer package",
+    "require": {
+        "php": ">7.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack Yu",
+            "email": "jackYu@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "autoload": {
+    "psr-4": {
+      "my-packages\\test-package-01\\": "src/"
+    }
+  }
+}
