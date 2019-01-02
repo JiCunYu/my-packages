@@ -5,6 +5,6 @@ class PackageTest
 {
     public function desc()
     {
-        echo "this is a test.";
+        echo "this is a test. Hellow word";
     }
 }
